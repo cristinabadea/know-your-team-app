@@ -59,7 +59,6 @@ const promptForNextEmployee = () => {
         name: "chooseEmployee",
         message: "Which type of team member would you like to add?",
         choices: [
-          "Manager",
           "Engineer",
           "Intern",
           "I don't want to add any more team members",
@@ -71,8 +70,6 @@ const promptForNextEmployee = () => {
         promptForEngineer();
       } else if (response.chooseEmployee == "Intern") {
         promptForIntern();
-      } else if (response.chooseEmployee == "Manager") {
-        promptForManager();
       } else {
         buildPage();
       }
@@ -152,44 +149,6 @@ const promptForIntern = () => {
       );
       // add the new Intern object to your array of employees
       employees.push(newIntern);
-      // call the function to prompt the user for the next employee
-      promptForNextEmployee();
-    });
-};
-
-const promptForManager = () => {
-  inquirer
-    .prompt([
-      {
-        type: "input",
-        message: "What is the Manager's name?",
-        name: "name",
-      },
-      {
-        type: "input",
-        message: "What is the Manager's id?",
-        name: "id",
-      },
-      {
-        type: "input",
-        message: "What is the Manager's email?",
-        name: "email",
-      },
-      {
-        type: "input",
-        message: "What is the Manager's office number?",
-        name: "officeNumber",
-      },
-    ])
-    .then((response) => {
-      const newManager = new Manager(
-        response.name,
-        response.id,
-        response.email,
-        response.officeNumber
-      );
-      // add the new Manager object to your array of employees
-      employees.push(newManager);
       // call the function to prompt the user for the next employee
       promptForNextEmployee();
     });
