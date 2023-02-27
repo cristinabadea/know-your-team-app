@@ -155,7 +155,7 @@ const promptForIntern = () => {
 };
 
 const buildPage = () => {
-  fs.writeFile("newHTML.html", render(employees), (err) => {
+  fs.writeFile("myTeam.html", render(employees), (err) => {
     err ? console.error(err) : console.log("Check the new HTML file!");
   });
 };
