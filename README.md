@@ -83,7 +83,7 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 ![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./demo/My-HTML-file.png)
 
-![HTML-page](./myTeam.html)
+![generated-HTML-page](./myTeam.html)
 
 ## Usage
 
