@@ -196,7 +196,7 @@ const promptForManager = () => {
 };
 
 const buildPage = () => {
-  fs.appendFile("newHTML.html", render(employees), (err) => {
+  fs.writeFile("newHTML.html", render(employees), (err) => {
     err ? console.error(err) : console.log("Check the new HTML file!");
   });
 };
