@@ -1,18 +1,20 @@
 <!-- @format -->
 
-# know-your-team
+# <span style='color:Pink;border:2px solid Pink; padding:4px; background-color:rgb(100 149 237);'>**ℹ️ know-your-team**</span>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Description
+---
 
-The 'know-your-team' application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+## <span style='color:green'>Description</span>
 
-### User Story
+The <span style='color:Pink'>**ℹ️ know-your-team**</span> application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+
+### <span style='color:#7ce4766b;margin-left:3px'>User Story</span>
 
 As a manager a user want to generate a webpage that displays my team's basic info so that a user have quick access to their emails and GitHub profiles.
 
-### Acceptance Criteria
+### <span style='color:#7ce4766b; margin-left:3px'>Acceptance Criteria</span>
 
 - Create a command-line application that accepts accepts user input using the provided starter code.
   - Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass.
@@ -66,7 +68,7 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 
 ---
 
-## Installation
+## <span style='color:green'>Installation</span>
 
 I have created a command-line application that dynamically generates a new HTML page from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer) and the file system module.
 
@@ -83,9 +85,11 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 ![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./demo/My-HTML-file.png)
 
-![generated-HTML-page](./myTeam.html)
+![generated-HTML-page](./output/myTeam.html)
 
-## Usage
+---
+
+## <span style='color:green'>Usage</span>
 
 - When a user starts the application then they are prompted to enter the **team manager**’s:
   - Name
@@ -107,32 +111,46 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
     - Email
     - School
   - When a user decides to finish building their team then they exit the application, and the HTML is generated.
-- Call the `render` function (provided for you) and pass in an array containing all employee objects;
+- Call the `render` function and pass in an array containing all employee objects;
   - The `render` function will generate and return a block of HTML including templated divs for each employee!
-- Create an HTML file using the HTML returned from the `render` function.
-  - Write it to a file named `team.html` in the `output` folder.
-  - You can use the provided variable `outputPath` to target this location.
+- An HTML file is created using the HTML returned from the `render` function.
+  - The newly generated `team.html` file is located in the `output` folder.
+  - I used the provided `outputPath` to target this location.
 
-## Credits
+---
 
-- the _page-template.js_, _render function_ and _style.css_ were provided for me by the Bootcamp tutor
+## <span style='color:green'>Credits</span>
 
-## License
+- the _page-template.js_, _render function_, _style.css_ and _outputPath variable_ were provided for me by the Bootcamp's tutors
+
+---
+
+## <span style='color:green'>License</span>
 
 MIT License
 
-## Badges
+---
+
+## <span style='color:green'>Badges</span>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Features
+---
+
+## <span style='color:green'>Features</span>
 
 N/A
 
-## Contribution
+---
+
+## <span style='color:green'>Contribution</span>
 
 N/A
 
-## Tests
+---
+
+## <span style='color:green'>Tests</span>
 
 Node tests
+
+---
