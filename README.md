@@ -151,6 +151,7 @@ N/A
 
 ## <span style='color:green'>Tests</span>
 
+Jest tests (Employee.test.js, Engineer.test.js, Manager.test.js, Intern.test.js)
 Node tests
 
 ---
